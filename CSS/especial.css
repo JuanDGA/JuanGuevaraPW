@@ -1,0 +1,31 @@
+@font-face {
+    font-family: fira-sans;
+    src: url('../Fuentes/FiraCode-Regular.ttf')
+}
+@font-face {
+    font-family: fira-bold;
+    src: url('../Fuentes/FiraSans-Bold.otf')
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-family: fira-sans;
+    font-weight: 400;
+    font-style: normal;
+}
+.circulo {
+    border: 10px solid black;
+    border-radius: 100%;
+}
+.colorP {
+    background-color: #F2CA7D;
+}
+.bold {
+    font-family: fira-bold;
+}
+.selected {
+    background-color: lightgray;
+}
