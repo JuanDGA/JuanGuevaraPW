@@ -1,10 +1,10 @@
 @font-face {
     font-family: fira-sans;
-    src: url('../Fuentes/FiraCode-Regular.ttf')
+    src: url('../Fonts/FiraCode-Regular.ttf');
 }
 @font-face {
     font-family: fira-bold;
-    src: url('../Fuentes/FiraSans-Bold.otf')
+    src: url('../Fonts/FiraSans-Bold.otf');
 }
 * {
     box-sizing: border-box;

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan David Guevara</title>
     <link rel="stylesheet" href="CSS/general.css">
-    <link rel="stylesheet" href="CSS/especial.css">
+    <link rel="stylesheet" href="CSS/special.css">
 </head>
 <body class="container">
     <header>
@@ -14,14 +14,20 @@
         </div>
         <div class="col l12 m12 padding">
             <div class="bar colorP border-black topbar leftbar bottombar rightbar round-xxlarge">
-                <a href="#" class="bar-item col l4 m4 center button padding bold selected">Inicio</a>
-                <a href="proyecto.html" class="bar-item col l4 m4 center button padding bold">Proyectos</a>
-                <a href="acerca.html" class="bar-item col l4 m4 center button padding bold">Acerca de</a>
+                <button id="buttonHome" onclick="home()" class="bar-item col l4 m4 center button padding bold">Home</button>
+                <button id="buttonPr" onclick="{project()}" class="bar-item col l4 m4 center button padding bold">Projects</button>
+                <button id="buttonAb" onclick="{about}" class="bar-item col l4 m4 center button padding bold">About of</button>
             </div>
         </div>
     </header>
     <div class="container">
-
+        <div id="message" class="center padding margin">
+            <h1>Please select one branch to see the page's content</h1>
+        </div>
+        <div id="home"></div>
+        <div id="project"></div>
+        <div id="about"></div>
     </div>
+    <script src="JS/main.js"></script>
 </body>
 </html>
